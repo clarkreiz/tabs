@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="tabs">
+            <ul class="tabs__list">
+              <li class="tabs__item" >
+                <a href="#" class="tabs__link" id="A">Первый таб</a>
+              </li>
+              <li class="tabs__item" >
+                <a href="#" class="tabs__link" id="B">Второй таб</a>
+              </li>
+            </ul>
+          <div class="tabs__content">
+
+            <div id="tabA" class="tabs__section tabs__section--active">
+                <div class="tabs__body">
+                  <input type="text">
+                  <button>enter</button>
+                  <div class="menu__greeting">
+                      Hello, {username}
+                  </div>
+                </div>
+            </div>
+            
+              <div id="tabB" class="tabs__section">
+                <div class="tabs__body">
+                  Content 2
+                </div>
+            </div>
+
+          </div>
+          </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
