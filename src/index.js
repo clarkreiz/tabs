@@ -1,5 +1,5 @@
-const buttonsContainer = document.querySelector('.tabs__list');
-buttonsContainer.addEventListener('click', event => {
+const tabsList = document.querySelector('.tabs__list');
+tabsList.addEventListener('click', event => {
 	let index = event.target.id;
    
     if (event.target.id) {
